@@ -156,6 +156,9 @@ body {
 @media (max-width: 768px) {
   html {
     overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
   .main-container {
     margin: 0;
@@ -163,8 +166,9 @@ body {
     background-color: var(--card-background);
     border: none;
     border-radius: 0;
-    padding: 30px 20px;
+    padding: 10px 10px;
     gap: 3rem;
+    min-height: 100vh;
   }
 
   .profile-info {
